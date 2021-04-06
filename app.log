@@ -1,23 +1,23 @@
-2021-04-05 10:55:00,803 INFO com.example.demo.SareetaApplication [main] Starting SareetaApplication on DESKTOP-4SBD1S9 with PID 17300 (started by hine1 in C:\Users\hine1\OneDrive\Desktop\JDND\projects\P04-eCommerce Application\starter_code)
-2021-04-05 10:55:00,809 DEBUG com.example.demo.SareetaApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
-2021-04-05 10:55:01,027 INFO com.example.demo.SareetaApplication [main] No active profile set, falling back to default profiles: default
-2021-04-05 10:55:09,054 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
-2021-04-05 10:55:09,055 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.19]
-2021-04-05 10:55:09,742 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
-2021-04-05 10:55:10,194 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
-2021-04-05 10:55:10,846 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
-2021-04-05 10:55:11,025 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+2021-04-06 11:08:03,435 INFO com.example.demo.SareetaApplicationTests [main] Starting SareetaApplicationTests on DESKTOP-4SBD1S9 with PID 15684 (started by hine1 in C:\Users\hine1\OneDrive\Desktop\JDND\projects\P04-eCommerce Application\starter_code)
+2021-04-06 11:08:03,494 DEBUG com.example.demo.SareetaApplicationTests [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-04-06 11:08:03,503 INFO com.example.demo.SareetaApplicationTests [main] No active profile set, falling back to default profiles: default
+2021-04-06 11:08:11,016 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-04-06 11:08:11,486 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-04-06 11:08:11,737 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2021-04-05 10:55:11,357 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
-2021-04-05 10:55:11,360 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
-2021-04-05 10:55:11,659 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2021-04-05 10:55:11,964 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2021-04-05 10:55:20,939 INFO com.example.demo.SareetaApplication [main] Started SareetaApplication in 21.549 seconds (JVM running for 23.053)
-2021-04-05 10:55:46,898 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-04-05 10:55:47,207 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-2] Username set with myusername
-2021-04-05 10:55:47,463 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-2] Successfully create user
-2021-04-05 10:55:52,196 DEBUG com.example.demo.security.JWTAuthenticationFilter [http-nio-8080-exec-3] Request is to process authentication
-2021-04-05 10:55:52,485 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-3] HHH000397: Using ASTQueryTranslatorFactory
-2021-04-05 10:56:26,500 INFO com.example.demo.controllers.OrderController [http-nio-8080-exec-5] Successfully submit order
-2021-04-05 21:52:12,725 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9h21m29s591ms339µs).
+2021-04-06 11:08:12,007 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2021-04-06 11:08:12,010 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2021-04-06 11:08:12,548 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-04-06 11:08:13,350 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-06 11:08:23,021 INFO com.example.demo.SareetaApplicationTests [main] Started SareetaApplicationTests in 21.282 seconds (JVM running for 27.579)
+2021-04-06 11:08:23,424 INFO com.example.demo.controllers.UserController [main] Username set with username1
+2021-04-06 11:08:23,664 INFO com.example.demo.controllers.UserController [main] Successfully create user
+2021-04-06 11:08:23,778 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2021-04-06 11:08:24,091 INFO com.example.demo.controllers.UserController [main] Username set with username2
+2021-04-06 11:08:24,231 INFO com.example.demo.controllers.UserController [main] Successfully create user
+2021-04-06 11:08:24,285 INFO com.example.demo.controllers.UserController [main] Username set with username3
+2021-04-06 11:08:24,392 INFO com.example.demo.controllers.UserController [main] Successfully create user
+2021-04-06 11:08:24,433 INFO com.example.demo.controllers.OrderController [main] Successfully submit order
+2021-04-06 11:08:24,473 INFO com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown initiated...
+2021-04-06 11:08:24,482 INFO com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown completed.
